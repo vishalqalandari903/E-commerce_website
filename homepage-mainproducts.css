@@ -3,7 +3,7 @@
   margin-bottom: 30px;
   padding-left: 20px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 50px;
 }
 .featured-products .product {
