@@ -95,56 +95,56 @@
   background-image: url("https://images.philips.com/is/image/PhilipsConsumer/TASH402BL_00-IMS-en_GH?wid=420&hei=360&$jpglarge$");
 }
 .featured-products .product:nth-child(2) .deepimage {
-  background-image: url("img/laptop.jpg");
+  background-image: url("laptop.jpg");
 }
 .featured-products .product:nth-child(3) .deepimage {
-  background-image: url("img/tab.jpg");
+  background-image: url("tab.jpg");
 }
 .featured-products .product:nth-child(4) .deepimage {
-  background-image: url("most-viewed-product/product.png");
+  background-image: url("product.png");
   background-color: white;
   background-size: 90% 80%;
   background-repeat: no-repeat;
 }
 .featured-products .product:nth-child(5) .deepimage {
-  background-image: url("img/watch.jpg");
+  background-image: url("watch.jpg");
 }
 .featured-products .product:nth-child(6) .deepimage {
-  background-image: url("img/catbanner-02.jpg");
+  background-image: url("catbanner-02.jpg");
   background-position: 130% 50%;
 }
 .featured-products .product:nth-child(7) .deepimage {
-  background-image: url("new-dresses/baner-flat-fashion-7.jpg");
+  background-image: url("baner-flat-fashion-7.jpg");
   background-position: 110% 50%;
 }
 .featured-products .product:nth-child(8) .deepimage {
-  background-image: url("img/catbanner-03.jpg");
+  background-image: url("catbanner-03.jpg");
   background-position: 130% 50%;
 }
 .featured-products .product:nth-child(9) .deepimage {
   background-image: url("https://images.philips.com/is/image/PhilipsConsumer/TASH402BL_00-IMS-en_GH?wid=420&hei=360&$jpglarge$");
 }
 .featured-products .product:nth-child(10) .deepimage {
-  background-image: url("most-viewed-product/product.png");
+  background-image: url("product.png");
   background-color: white;
   background-size: 90% 80%;
   background-repeat: no-repeat;
 }
 .featured-products .product:nth-child(11) .deepimage {
-  background-image: url("img/watch.jpg");
+  background-image: url("watch.jpg");
 }
 .featured-products .product:nth-child(12) .deepimage {
-  background-image: url("img/tab.jpg");
+  background-image: url("tab.jpg");
 }
 .featured-products .product:nth-child(13) .deepimage {
-  background-image: url("img/acc.jpg");
+  background-image: url("acc.jpg");
 }
 .featured-products .product:nth-child(14) .deepimage {
-  background-image: url("img/catbanner-02.jpg");
+  background-image: url("catbanner-02.jpg");
   background-position: 130% 50%;
 }
 .featured-products .product:nth-child(15) .deepimage {
-  background-image: url("img/laptop.jpg");
+  background-image: url("laptop.jpg");
 }
 .featured-products .product .content {
   padding: 0 30px;
