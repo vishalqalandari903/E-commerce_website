@@ -312,10 +312,10 @@ button {
   background-color: rgb(227, 255, 206);
 }
 .latest-news .news:nth-child(2) .image {
-  background-image: url("img/vrset.jpg");
+  background-image: url("vrset.jpg");
 }
 .latest-news .news:nth-child(3) .image {
-  background-image: url("img/kidsplaying.jpg");
+  background-image: url("kidsplaying.jpg");
 }
 .latest-news .news:nth-child(4) .image {
   background-image: url("cooking.jpg");
@@ -358,7 +358,7 @@ button {
 .most-viewed-product .product .image {
   height: 250px;
   width: 250px;
-  background-image: url("most-viewed-product/product.png");
+  background-image: url("product.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-color: blue; */
