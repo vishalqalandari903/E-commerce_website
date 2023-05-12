@@ -1,0 +1,195 @@
+.featured-products {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
+.featured-products .product {
+  height: 370px;
+  width: 250px;
+  position: relative;
+  background-color: #122936;
+  overflow: hidden;
+  border-radius: 10px;
+  /* padding-top: 60px; */
+  padding-top: 10px;
+  box-shadow: 5px 5px 10px rgb(135, 135, 135);
+}
+.featured-products .product:hover {
+  box-shadow: 5px 15px 10px rgb(135, 135, 135);
+}
+.featured-products .product::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: -60px;
+  height: 250px;
+  width: 400px;
+  background-color: #ffc9b9;
+  transform: skewY(340deg);
+  transition: 0.5s;
+  /* z-index: -1; */
+}
+/* .featured-products .product:hover::before {
+    transform: skewY(320deg);
+    top: -120px;
+    transition: .5s;
+  } */
+.featured-products .product::after {
+  content: "Quality";
+  opacity: 0.3;
+  font-size: 130px;
+  color: rgba(192, 192, 192, 0.4);
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  /* z-index: -1; */
+}
+.featured-products .product .content .buy {
+  background-color: #007ce9;
+  color: white;
+  border: none;
+  height: 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+  bottom: -50px;
+  transition: 1s;
+  margin-top: 5px;
+  transition: 0.5s;
+  /* opacity: 0; */
+}
+.featured-products .product .content .buy:hover {
+  background-color: #0059a8;
+}
+.featured-products .product .image {
+  height: 70%;
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.featured-products .product .image .deepimage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+}
+.featured-products .product:hover .deepimage {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.featured-products .product:hover .buy {
+  bottom: 0px;
+  transition: 0.5s;
+}
+.featured-products .product:nth-child(1) .deepimage {
+  background-image: url("https://images.philips.com/is/image/PhilipsConsumer/TASH402BL_00-IMS-en_GH?wid=420&hei=360&$jpglarge$");
+}
+.featured-products .product:nth-child(2) .deepimage {
+  background-image: url("img/laptop.jpg");
+}
+.featured-products .product:nth-child(3) .deepimage {
+  background-image: url("img/tab.jpg");
+}
+.featured-products .product:nth-child(4) .deepimage {
+  background-image: url("most-viewed-product/product.png");
+  background-color: white;
+  background-size: 90% 80%;
+  background-repeat: no-repeat;
+}
+.featured-products .product:nth-child(5) .deepimage {
+  background-image: url("img/watch.jpg");
+}
+.featured-products .product:nth-child(6) .deepimage {
+  background-image: url("img/catbanner-02.jpg");
+  background-position: 130% 50%;
+}
+.featured-products .product:nth-child(7) .deepimage {
+  background-image: url("new-dresses/baner-flat-fashion-7.jpg");
+  background-position: 110% 50%;
+}
+.featured-products .product:nth-child(8) .deepimage {
+  background-image: url("img/catbanner-03.jpg");
+  background-position: 130% 50%;
+}
+.featured-products .product:nth-child(9) .deepimage {
+  background-image: url("https://images.philips.com/is/image/PhilipsConsumer/TASH402BL_00-IMS-en_GH?wid=420&hei=360&$jpglarge$");
+}
+.featured-products .product:nth-child(10) .deepimage {
+  background-image: url("most-viewed-product/product.png");
+  background-color: white;
+  background-size: 90% 80%;
+  background-repeat: no-repeat;
+}
+.featured-products .product:nth-child(11) .deepimage {
+  background-image: url("img/watch.jpg");
+}
+.featured-products .product:nth-child(12) .deepimage {
+  background-image: url("img/tab.jpg");
+}
+.featured-products .product:nth-child(13) .deepimage {
+  background-image: url("img/acc.jpg");
+}
+.featured-products .product:nth-child(14) .deepimage {
+  background-image: url("img/catbanner-02.jpg");
+  background-position: 130% 50%;
+}
+.featured-products .product:nth-child(15) .deepimage {
+  background-image: url("img/laptop.jpg");
+}
+.featured-products .product .content {
+  padding: 0 30px;
+  position: relative;
+  z-index: 5;
+}
+.featured-products .product .content .title {
+  font-size: 18px;
+  text-align: center;
+}
+.featured-products .product .content span {
+  float: left;
+  color: white;
+  font-size: 20px;
+  margin-top: 1px;
+  position: relative;
+  /* right: -10px; */
+  cursor: pointer;
+}
+.featured-products .product .content .price {
+  display: flow-root;
+}
+.featured-products .product .content .cart {
+  /* background-color: #0088ff; */
+  background-color: rgba(179, 219, 255, 0.4);
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 2px;
+  float: right;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px #00549d;
+  font-size: 18px;
+  /* transition: 1s; */
+}
+.featured-products .product .content .cart:hover {
+  /* background-color: #005cac; */
+  background-color: #0088ff;
+  /* transition: 1s; */
+}
+.featured-products .product .content div {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}

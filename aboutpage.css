@@ -1,0 +1,603 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:700");
+
+body {
+  /* background: linear-gradient(to right,#c3d7e0, #addbec, #8ed2e7, #8fe1f6, #94bcc6, #88b5bf, #7baeb8, #00d9ff, #ec92cf, #f67ace, #f38ed3, #eea6d7); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+* {
+  /* border: 2px solid; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  /* position: relative; */
+  top: 0;
+  width: 100%;
+  padding: 0 0px 0px 0;
+  color: white;
+  z-index: 99999;
+  position: fixed;
+}
+nav {
+  background-color: rgb(0, 2, 36);
+  width: 100%;
+  padding: 5px 50px;
+  display: flow-root;
+  border-bottom: 1px dotted rgba(181, 181, 181, 0.5);
+}
+/* .top-nav {
+  position: fixed;
+  top: 0px;
+} */
+/* .mid-nav {
+  position: sticky;
+  top: 30px;
+} */
+.top-nav p {
+  font-size: 11px;
+  color: white;
+  display: inline-block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-nav > select {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  float: right;
+  margin-right: 10px;
+  box-sizing: border-box;
+  font-size: 9px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.top-nav > select option {
+  background-color: black;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+.mid-nav .logo {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: inline-block;
+}
+.mid-nav .logo i:first-of-type {
+  /* border: 1px solid; */
+  padding: 3px;
+  border-radius: 50px;
+  text-shadow: 1px 1px 4px rgb(252, 0, 0), -1px -1px 4px rgb(252, 0, 0);
+}
+
+.links {
+  /* background-color: red; */
+  display: inline-block;
+  float: right;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.links ul li {
+  display: inline-block;
+  list-style: none;
+  width: 70px;
+  text-align: center;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+  transition: 0.5s;
+  display: inline-block;
+  width: 70%;
+}
+.links a:hover,
+.links a.active {
+  color: white;
+  transition: 0.5s;
+}
+:root {
+  --signin: rgba(0, 187, 255, 0.945);
+}
+.links .login {
+  height: 25px;
+  width: 88px;
+  background-color: transparent;
+  border: 2px solid var(--signin);
+  color: var(--signin);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.links .login:hover {
+  transition: 0.6s;
+  background-color: var(--signin);
+  color: white;
+  border: 2px solid var(--signin);
+}
+
+header .icon-div {
+  color: black;
+}
+
+/* .front-video video {
+  width: 100%;
+} */
+
+.front-container {
+  height: 70vh;
+}
+
+.front-container .front-image {
+  background-image: url("b1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+
+  font-family: "Chunk ReThunk", sans-serif;
+  font-weight: bolder;
+}
+
+.our-story {
+  /* background-color: red; */
+  display: flow-root;
+  height: 500px;
+  padding: 40px 160px 40px 170px;
+}
+.our-story img {
+  float: right;
+  height: 400px;
+  width: 550px;
+  box-shadow: 20px 20px 10px rgba(190, 190, 190, 1);
+}
+.our-story .content {
+  float: left;
+  width: 410px;
+  text-align: justify;
+  /* background-color: red; */
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  color: gray;
+}
+.our-story h1 {
+  margin-bottom: 30px;
+}
+
+.our-mission1 {
+  /* background-color: red; */
+  display: flow-root;
+  height: 500px;
+  padding: 40px 160px 40px 170px;
+}
+.our-mission1 img {
+  float: right;
+  height: 400px;
+  width: 550px;
+  box-shadow: 20px 20px 10px rgba(190, 190, 190, 1);
+}
+.our-mission1 .content {
+  float: left;
+  width: 410px;
+  text-align: justify;
+  /* background-color: red; */
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  color: rgb(99, 99, 99);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.our-mission1 .content h4 {
+  margin-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #101011;
+}
+
+.our-mission2 {
+  /* background-color: red; */
+  display: flow-root;
+  height: 500px;
+  padding: 40px 160px 40px 170px;
+}
+.our-mission2 img {
+  float: left;
+  height: 400px;
+  width: 550px;
+  box-shadow: 20px 20px 10px rgba(190, 190, 190, 1);
+}
+.our-mission2 .content {
+  float: right;
+  width: 410px;
+  text-align: justify;
+  /* background-color: red; */
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  color: rgb(99, 99, 99);
+}
+.our-mission2 .content h4 {
+  margin-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #101011;
+}
+
+.our-mission1 img {
+  animation: zoom 2s linear alternate infinite;
+}
+.our-mission2 img {
+  animation: zoom1 2s linear alternate infinite;
+}
+@keyframes zoom {
+  from,
+  to {
+    box-shadow: 20px 20px 10px rgba(190, 190, 190, 1);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 25px 25px 10px rgba(190, 190, 190, 1);
+    transform: scale(1.01);
+  }
+}
+@keyframes zoom1 {
+  from,
+  to {
+    box-shadow: -20px 20px 10px rgba(190, 190, 190, 1);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: -25px 25px 10px rgba(190, 190, 190, 1);
+    transform: scale(1.01);
+  }
+}
+
+.our-team {
+  width: 100%;
+  color: black;
+  background-color: rgb(230, 230, 230);
+}
+.our-team h1 {
+  text-align: center;
+  color: black;
+}
+.our-team .our-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 20px;
+}
+.our-team .our-members .member {
+  position: relative;
+}
+.our-team .our-members .member1::after,
+.our-team .our-members .member2::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  height: 300px;
+  width: 3px;
+  background-color: rgb(204, 204, 204);
+  top: 15%;
+}
+.our-team .our-members .front-image {
+  /* background-color: red; */
+  text-align: center;
+  padding: 10px;
+}
+.our-team .our-members .front-image img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  margin: auto;
+}
+.our-team .our-members .content {
+  /* background-color: red; */
+  /* text-align: justify; */
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+.our-team .our-members .content h5 {
+  color: black;
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sticky-footer {
+  height: 70px;
+  position: fixed;
+  bottom: 20px;
+}
+.help-btn {
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 5px 10px 5px;
+  background-color: rgb(12, 13, 46);
+  text-align: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  /* position: absolute; */
+  /* float: right; */
+  /* margin-right: 20px; */
+  /* margin-top: 20px; */
+  /* bottom: 10px; */
+  /* right: 10px; */
+}
+.help-btn i {
+  border: 1px solid;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 2px;
+}
+
+.socialicons-container {
+  position: fixed;
+  bottom: 10px;
+  left: 15px;
+}
+/* .socialicons-container i:not(.arrowup)
+{
+   display: none;
+} */
+
+.socialicons-container i {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 45px;
+  cursor: pointer;
+  user-select: none;
+}
+.socialicons-container i.arrowdown {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 45px;
+  cursor: pointer;
+  position: relative;
+  z-index: 11;
+  bottom: -50px;
+  user-select: none;
+}
+.socialicons-container i.twitter {
+  position: relative;
+  margin-bottom: -50px;
+  transition: 1s;
+}
+.socialicons-container i.linkedin {
+  position: relative;
+  margin-bottom: -50px;
+  transition: 1s;
+}
+.socialicons-container i.google {
+  position: relative;
+  margin-bottom: -50px;
+  transition: 1s;
+}
+.socialicons-container i.facebook {
+  position: relative;
+  margin-bottom: -100px;
+  transition: 1s;
+}
+.visible-icons i.facebook,
+.visible-icons i.google,
+.visible-icons i.linkedin,
+.visible-icons i.twitter {
+  display: grid;
+  transition: 1s;
+}
+.visible-icons i.facebook {
+  margin-bottom: -40px;
+  transition: 1s;
+}
+.visible-icons i.linkedin {
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.visible-icons i.twitter {
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.visible-icons i.google {
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.socialicons-container .arrowup {
+  position: relative;
+  z-index: 12;
+}
+.visible-icons i.arrowup.goback {
+  position: relative;
+  z-index: 5;
+}
+
+footer {
+  padding-top: 0 !important;
+}
+.upper-footer {
+  background-color: black;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.upper-footer .content {
+  /* background-color: red; */
+  text-align: center;
+  margin-bottom: 200px;
+}
+.upper-footer .content p {
+  color: gray;
+  font-size: 21px;
+  font-weight: 300;
+}
+.upper-footer .content .btn {
+  height: 60px;
+  width: 350px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 50px;
+  line-height: 60px;
+  margin-top: 10px;
+  transition: 1s;
+  box-shadow: 4px 4px 4px #1d66e5;
+  background: linear-gradient(90deg, transparent, transparent);
+}
+.upper-footer .content .btn:hover {
+  background-color: #2264d7;
+  box-shadow: 0px 0px 4px #1d66e5;
+  transition: 0.5s;
+}
+.upper-footer .img {
+  background-image: url("https://th.bing.com/th/id/OIP.0b7bLhqmZQlbK0tZoMcYRgHaDL?w=330&h=149&c=7&r=0&o=5&pid=1.7");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 30px 30px 10px rgb(62, 62, 62, 0.2);
+  margin-bottom: 200px;
+}
+.upper-footer .thinking-about {
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  width: 900px;
+  margin-left: 200px;
+}
+.upper-footer .thinking-about span {
+  color: yellow;
+}
+footer .upper-footer button {
+  height: 40px;
+  /* width: 150px; */
+  padding: 3px;
+  box-sizing: content-box;
+  white-space: nowrap;
+  background-color: yellow;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  font-weight: bold;
+  margin: 30px 0 0 200px;
+  cursor: pointer;
+  /* color: white; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #101011;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}

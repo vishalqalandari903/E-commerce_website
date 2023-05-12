@@ -1,0 +1,106 @@
+header {
+  /* position: relative; */
+  top: 0;
+  width: 100%;
+  padding: 0 0px 0px 0;
+  color: white;
+  z-index: 99999;
+  position: fixed;
+}
+nav {
+  background-color: rgb(0, 2, 36);
+  width: 100%;
+  padding: 5px 50px;
+  display: flow-root;
+  border-bottom: 1px dotted rgba(181, 181, 181, 0.5);
+}
+/* .top-nav {
+    position: fixed;
+    top: 0px;
+  } */
+/* .mid-nav {
+    position: sticky;
+    top: 30px;
+  } */
+.top-nav p {
+  font-size: 11px;
+  color: white;
+  display: inline-block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-nav > select {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  float: right;
+  margin-right: 10px;
+  box-sizing: border-box;
+  font-size: 9px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.top-nav > select option {
+  background-color: black;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+.mid-nav .logo {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: inline-block;
+}
+.mid-nav .logo i:first-of-type {
+  /* border: 1px solid; */
+  padding: 3px;
+  border-radius: 50px;
+  text-shadow: 1px 1px 4px rgb(252, 0, 0), -1px -1px 4px rgb(252, 0, 0);
+}
+
+.links {
+  /* background-color: red; */
+  display: inline-block;
+  float: right;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.links ul li {
+  display: inline-block;
+  list-style: none;
+  width: 70px;
+  text-align: center;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+  transition: 0.5s;
+  display: inline-block;
+  width: 70%;
+}
+.links a:hover,
+.links a.active {
+  color: white;
+  transition: 0.5s;
+}
+:root {
+  --signin: rgba(0, 187, 255, 0.945);
+}
+.links .login {
+  height: 25px;
+  width: 88px;
+  background-color: transparent;
+  border: 2px solid var(--signin);
+  color: var(--signin);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.links .login:hover {
+  transition: 0.6s;
+  background-color: var(--signin);
+  color: white;
+  border: 2px solid var(--signin);
+}
