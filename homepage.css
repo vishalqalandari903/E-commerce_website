@@ -56,7 +56,7 @@ header .icon-div {
   overflow: hidden;
 }
 .front-deals .joint-2images .image1 {
-  background-image: url("img/main-banner-1.jpg");
+  background-image: url("main-banner-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -64,7 +64,7 @@ header .icon-div {
   background-position: center;
 }
 .front-deals .joint-2images .image2 {
-  background-image: url("img/main-banner.jpg");
+  background-image: url("main-banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -144,27 +144,27 @@ header .icon-div {
 }
 
 .front-deals .div2-images .image1 {
-  background-image: url("img/catbanner-01.jpg");
+  background-image: url("catbanner-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
 }
 .front-deals .div2-images .image2 {
-  background-image: url("img/catbanner-02.jpg");
+  background-image: url("catbanner-02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .front-deals .div3-images .image1 {
-  background-image: url("img/catbanner-03.jpg");
+  background-image: url("catbanner-03.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
 }
 .front-deals .div3-images .image2 {
-  background-image: url("img/catbanner-04.jpg");
+  background-image: url("catbanner-04.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -283,7 +283,7 @@ button {
   /* box-shadow: inset 10px 30px 20px gray; */
 }
 .latest-news .news .image {
-  background-image: url("img/blog-1.jpg");
+  background-image: url("blog-1.jpg");
   background-size: cover;
   width: 100%;
   height: 220px;
@@ -318,7 +318,7 @@ button {
   background-image: url("img/kidsplaying.jpg");
 }
 .latest-news .news:nth-child(4) .image {
-  background-image: url("img/cooking.jpg");
+  background-image: url("cooking.jpg");
 }
 .latest-news .news .content .date {
   font-size: 12px;
@@ -417,7 +417,7 @@ button {
   box-sizing: border-box;
 }
 .new-dresses .dress {
-  background-image: url("new-dresses/glasses-category-img-2.jpg");
+  background-image: url("glasses-category-img-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -442,30 +442,30 @@ button {
   transition: 0.5s;
 }
 .new-dresses .dress:nth-child(2) {
-  background-image: url("new-dresses/glasses-category-img-1.jpg");
+  background-image: url("glasses-category-img-1.jpg");
 }
 .new-dresses .dress:nth-child(3) {
-  background-image: url("new-dresses/retail-black-friday-small-banner-1-opt.jpg");
+  background-image: url("retail-black-friday-small-banner-1-opt.jpg");
 }
 
 .new-dresses .dress:nth-child(4) {
-  background-image: url("new-dresses/retail-black-friday-small-banner-4-opt.jpg");
+  background-image: url("retail-black-friday-small-banner-4-opt.jpg");
   background-position: center;
 }
 
 .new-dresses .dress:nth-child(5) {
-  background-image: url("new-dresses/baner-flat-fashion-7.jpg");
+  background-image: url("baner-flat-fashion-7.jpg");
 }
 
 .new-dresses .dress:nth-child(6) {
-  background-image: url("new-dresses/retail-black-friday-small-banner-2-opt.jpg");
+  background-image: url("retail-black-friday-small-banner-2-opt.jpg");
 }
 
 .discount-voucher {
   width: 100%;
   height: 300px;
   background-color: darkblue;
-  background-image: url("img/b2.jpg");
+  background-image: url("b2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -573,7 +573,7 @@ button {
   position: relative;
   margin-bottom: -50px;
   transition: 1s;
-  background-image: url("social-icons/twitter.png");
+  background-image: url("twitter.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -582,7 +582,7 @@ button {
   position: relative;
   margin-bottom: -50px;
   transition: 1s;
-  background-image: url("social-icons/linkedin.png");
+  background-image: url("linkedin.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -591,7 +591,7 @@ button {
   position: relative;
   margin-bottom: -50px;
   transition: 1s;
-  background-image: url("social-icons/google-plus.png");
+  background-image: url("google-plus.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -601,7 +601,7 @@ button {
   margin-bottom: -100px;
   transition: 1s;
   color: black;
-  background-image: url("social-icons/facebook.png");
+  background-image: url("facebook.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -634,7 +634,7 @@ button {
   z-index: 12;
   padding: 5px;
   transform: rotate(-45deg);
-  background-image: url("social-icons/arrow-upper-right.png");
+  background-image: url("arrow-upper-right.png");
   background-size: 50% 50%;
   background-repeat: no-repeat;
   background-position: center;
