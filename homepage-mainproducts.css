@@ -3,8 +3,8 @@
   margin-bottom: 30px;
   padding-left: 20px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 50px;
+  grid-template-columns: repeat(5, 0.9fr);
+  grid-gap: 5px;
 }
 .featured-products .product {
   height: 370px;
